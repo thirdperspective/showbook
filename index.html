@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>showbook</title>
+
+	<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+
+	<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+
+		
+
+</head>
+
+<body id="wrap">
+
+	
+
+
+	<!--start header -->
+	<header>
+		<nav class="navbar navbar-fixed-top" id="navbar">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a href="#" class="navbar-brand"><img src="img/Showtime-Logo.svg.png"></a>
+				
+				<div class="nav-collapse collapse navbar-responsive-collapse" id="navcollapse">
+					<ul class="nav navbar-nav" id="navItem">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Movie</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">All</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Movie</a>
+								</li>
+								<li>
+									<a href="#">Events</a>
+								</li>
+								<li>
+									<a href="#">plays</a>
+								</li>
+							</ul><!--end dropdown menu-->
+						</li>
+					</ul><!--end nav item-->
+					<form id="search" class="pull-left">
+						<input type="text" class="form-control" placeholder="Search movies.." id="searchInput">
+						<button type="submit" class="btn btn-default">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form><!--end form-->
+					<ul class="nav navbar-resposive-collapse navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">ordered tickets</a>
+								</li>
+								<li>
+									<a href="#">Setting</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">sign out</a>
+								</li>
+							</ul>
+
+						</li>
+					</ul>
+					
+				</div><!--nav collapse-->
+			</div><!--end nav container-->
+		</nav><!--end nav-->
+	</header>
+	<!--Main content starts-->
+	<main class="container">
+		<div class="carousel slide" id="myCarousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-to-slide="0" data-target="#myCarousel"></li>
+				<li data-to-slide="1" data-target="#myCarousel"></li>
+				<li data-to-slide="2" data-target="#myCarousel"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<img src="">
+					<div class="carousel-caption">
+					</div>
+				</div><!--end item1-->
+
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+					</div>
+				</div><!--end item2-->
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+					</div>
+				</div><!--end item3-->
+			</div><!--end inner carousel-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div>
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+				<!-- Visible only on small devices -->
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+				</div><!-- end well-small -->
+				
+				<div class="well" id="choice">
+					<div class="page-header" id="choice_header">
+						<h1>MOVIES</h1>
+					</div><!-- end page-header -->
+					
+		
+<!--tab section is starts here-->
+		<div class="tabbable">
+			<ul class="nav nav-tabs"  ><!--table heading -->
+				<li class="active" id="tabli1"><a href="#tab1" data-toggle="tab">Now showing</a></li>
+				<li><a href="#tab2" data-toggle="tab" id="tabli2">coming soon</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="tab1">
+					<div class="row" id="features">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00040847.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00037178_09-05-2016_12-49-39.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00041833_12-05-2016_05-21-33.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00045069.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+					</div><!-- end features -->
+
+					<div class="row" id="features">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046586.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046881.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00042505_17-06-2016_02-22-30.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00043736.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+					</div><!-- end features -->
+
+					<div class="row" id="features">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046428.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046586.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00025234_07-07-2016_06-22-27.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00043239_24-06-2016_04-07-35.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+					</div><!-- end features -->
+
+				</div><!--end of the tab1-->
+
+
+				<div class="tab-pane" id="tab2">
+					<div class="row" id="features">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046428.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046586.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00025234_07-07-2016_06-22-27.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00043239_24-06-2016_04-07-35.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+					</div><!-- end features -->
+
+					<div class="row" id="features">
+						
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046881.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00043736.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00042643_08-07-2016_11-55-11.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00046586.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+
+						
+					</div><!-- end features -->
+
+					<div class="row" id="features">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00040847.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00037178_09-05-2016_12-49-39.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/et00041833_12-05-2016_05-21-33.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 feature">
+							<div class="panel">
+								<div class="panel-heading">
+									<img src="img/ET00045069.jpg" class="img-responsive" alt="">
+								</div><!-- end panel-heading -->
+								
+								
+								<p>Movie Name</p><br>
+								
+								<div class="panel-footer">Book Show</div>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+					</div><!-- end features -->
+				</div><!--end of the tab pane-->
+			</div><!--end of tab content-->
+		</div><!--end of tabbable-->
+
+		</div><!-- end well -->
+				
+		</div><!-- end col-12 -->
+		</div><!-- end bigCallout -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.222761143076!2d77.73861351491225!3d12.957592790865041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae12120474bbe9%3A0xadfcc4ec86b4d0d1!2sJagriti+Theatre!5e0!3m2!1sen!2sin!4v1476629960084" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<a href="">
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						
+						<h4 class="modal-title">A Modal Window</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">
+						<h4>Text in a modal</h4>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						
+						<h4>Popovers in a modal</h4>
+						<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+						
+						<h4>Tooltips in a modal</h4>
+						<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+						
+						<hr>
+						
+						<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+						
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputName">Name</label>
+								<div class="col-lg-10">
+									<input class="form-control" id="inputName" placeholder="Name" type="text">
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+								<div class="col-lg-10">
+									<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+									<button class="btn btn-success pull-right" type="submit">Send!</button>
+								</div>
+							</div>
+						</form>
+					</div><!-- end modal-body -->
+					
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+</div><!-- end myModal -->
+
+	</main>
+	<!--footer starts-->
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+			<h4>MOVIES BY LANGUAGE</h4>
+								<ul class="by-language-column">
+									<li><a href="/chennai/movies/hindi" title="Hindi"><span>Hindi</span></a></li>
+									<li><a href="/chennai/movies/english" title="English"><span>English</span></a></li>
+									<li><a href="/chennai/movies/marathi" title="Marathi"><span>Marathi</span></a></li>
+									<li><a href="/chennai/movies/bengali" title="Bengali"><span>Bengali</span></a></li>
+									<li><a href="/chennai/movies/tamil" title="Tamil"><span>Tamil</span></a></li>
+									<li><a href="/chennai/movies/telugu" title="Telugu"><span>Telugu</span></a></li>
+									<li><a href="/chennai/movies/malayalam" title="Malayalam"><span>Malayalam</span></a></li>
+									<li><a href="/chennai/movies/bhojpuri" title="Bhojpuri"><span>Bhojpuri</span></a></li>
+									<li><a href="/chennai/movies/kannada" title="Kannada"><span>Kannada</span></a></li>
+								</ul>
+			</div><!-- end col-sm-2 -->
+			
+			<div class="col-sm-2">
+				<h4>MOVIES BY GENRE</h4>
+				<ul class="by-genre-column">
+									<li><a href="#" title="Action"><span>Action</span></a></li>
+									<li><a href="#" title="Romance"><span>Romance</span></a></li>
+									<li><a href="#" title="Comedy"><span>Comedy</span></a></li>
+									<li><a href="#" title="Adult"><span>Adult</span></a></li>
+									<li><a href="" title="Adventure"><span>Adventure</span></a></li>
+									<li><a href="" title="Biography"><span>Biography</span></a></li>
+									<li><a href="" title="Classic"><span>Classic</span></a></li>
+									<li><a href="" title="Crime"><span>Crime</span></a></li>
+									<li><a href="" title="Drama"><span>Drama</span></a></li>
+									<li><a href="" title="Family"><span>Family</span></a></li>
+								</ul>
+			</div><!-- end col-sm-4 -->
+			
+			<div class="col-sm-2">
+				<h4>LATEST MOVIES</h4>
+					<ul class="groups">
+						<li><a href="/movies/nowshowing"  title="Now Showing"><span>Now Showing</span></a></li>
+						<li><a href="/movies/comingsoon" title="Coming Soon"><span>Coming Soon</span></a></li>
+						<li><a href="/person" title="Movie Celebrities"><span>Movie Celebrities</span></a></li>
+					</ul>
+			</div><!-- end col-sm-2 -->
+			
+			
+			
+			<div class="col-sm-2">
+				<h4>MOVIE REVIEWS</h4>
+					<ul class="groups">
+						<li><a href="/entertainment-news/"  target="_blank" title="Entertainment News"><span>Entertainment News</span></a></li>
+						<li><a href="//in.bookmyshow.com/entertainment/topic/rajeev-masand"  target="_blank" title="Rajeev Masand"><span>Rajeev Masand</span></a></li>
+						<li><a href="//in.bookmyshow.com/entertainment/topic/film-reviews" target="_blank" title="Film Reviews"><span>Film Reviews</span></a></li>
+						<li><a href="//in.bookmyshow.com/entertainment/write-us" target="_blank" title="Guest Blogging"><span>Guest Blogging</span></a></li>
+					</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-2">
+				<h4>Follow Us</h4>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Plus</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+		</div><!-- end row -->
+	</div><!-- end container -->
+
+	<!--online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</footer>
+</body>
+</html>

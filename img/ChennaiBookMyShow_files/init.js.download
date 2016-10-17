@@ -1,0 +1,2 @@
+//vf
+;(function(){var d=top.document,s = d.createElement("script");s.type="text/javascript";var redr="//px.ph.affinity.com/pd.php?ty=cr&rr="+Date.now()+"&value=@RTA_PARAM@";s.src="//rtax.criteo.com/delivery/rta/rta.js?netId=5605&cookieName=crtg_rta&rnd="+Date.now()+"&varName=crtg_content&urlredirectType=1&urlredirect="+encodeURIComponent(redr);d.getElementsByTagName("head")[0].appendChild(s);})();

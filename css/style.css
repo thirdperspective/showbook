@@ -1,0 +1,198 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Hari Prasath
+
+*/
+
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput
+{
+	width: 200px;
+	float: left;
+}
+
+#search
+{
+	padding-top: 10px;
+}
+
+#navItem
+{
+	margin: 4px 10px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+
+#slide1 {
+   background: url('../img/dhoni_large.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../img/jio_large.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../img/inferno_large.jpg') top center no-repeat;
+}
+
+
+
+/* --------------------------------------
+   main
+   -------------------------------------- */
+   #choice
+   {
+      text-align: center;
+   }
+
+   #choice_btn
+   {
+      display: inline-block;
+   }
+
+   #choice_btn button
+   {
+     width: 150px;
+     background:white;
+     color: black;
+     margin-right: 0px;
+   }
+
+.panel a
+{
+  width: 100%;
+  padding: 0px 0px;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.panel-footer
+{
+   background: brown;
+   color: white;
+}
+
+#features
+{
+   text-align: center;
+}
+
+/* --------------------------------------
+   tabbable content
+   -------------------------------------- */
+
+.tabbable li
+{
+   width: 50%;
+   text-align: center;
+}
+
+
+/* --------------------------------------
+  Footer
+   -------------------------------------- */
+
+Footer
+{
+   background-color: #444444;
+   color: white;
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+    #slide1 {
+   background: url('../img/dhoni_medium.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../img/jio_medium.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../img/inferno_medium.jpg') top center no-repeat;
+}
+}
+
+ Landscape phone to portrait tablet 
+@media (max-width: 768px) {
+
+    #slide1 {
+   background: url('../img/dhoni_medium.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../img/jio_medium.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../img/inferno_medium.jpg') top center no-repeat;
+}
+	
+}
+
+/* Large desktop 
+@media (min-width: 1200px) {
+
+   #slide1 {
+   background: url('../img/dhoni_large.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../img/jio_large.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../img/inferno_large.jpg') top center no-repeat;
+}
+
+	
+}*/
